@@ -117,13 +117,13 @@ http://localhost:3000
 
 ### This frontend connects to backend CRM APIs for:
 
--Authentication
+- Authentication
 
--Customer data
+- Customer data
 
--Lead data
+- Lead data
 
--Dashboard analytics
+- Dashboard analytics
 
 <b>Create .env.local file:
 NEXT_PUBLIC_API_URL=http://localhost:5000 </b>
