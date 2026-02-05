@@ -1,36 +1,179 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📊 CRM Frontend
 
-## Getting Started
+Frontend repository for a **Customer Relationship Management (CRM)** system that helps businesses track customers, leads, and performance through an interactive dashboard with role-based access control.
 
-First, run the development server:
+🔗 **GitHub Repo:** https://github.com/blackcat-007/crm-frontend
+
+---
+
+## 🚀 Overview
+
+This CRM frontend provides a centralized platform to manage:
+
+- 👥 Customers  
+- 🎯 Leads  
+- 📈 Business performance  
+- 🛠️ Admin & User operations  
+
+Built with modern web technologies and enhanced with interactive 3D visuals.
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Usage |
+|------------|--------|
+| ⚛️ Next.js | Frontend Framework |
+| 🎨 Three.js | 3D Dashboard & Visual Effects |
+| 🟨 JavaScript | Core Logic |
+| 🎯 React.js | UI Components |
+| 🎨 CSS / Tailwind | Styling |
+
+---
+
+## ✨ Features
+
+### 📌 Dashboard Tracking
+- Centralized analytics view  
+- Customer & lead growth insights  
+- Performance monitoring  
+- Interactive 3D visual experience using Three.js  
+
+---
+
+### 👥 Customer Management
+- ➕ Add customers  
+- 👀 View customer details  
+- ✏️ Update information  
+- 📜 Track activity/history  
+
+---
+
+### 🎯 Lead Tracking
+- 🆕 Create leads  
+- 📊 Monitor lead status  
+- 🔄 Convert leads → customers  
+- 📌 Track sales pipeline  
+
+---
+
+## 🔐 Role-Based Access Control
+
+System access is divided into **Admin** and **User** roles.
+
+---
+
+### 🛠️ Admin Control
+
+Admins have full authority:
+
+- Manage all customers  
+- Manage all leads  
+- View complete analytics dashboard  
+- Control user permissions  
+- Update & delete records  
+
+---
+
+### 👤 User Control
+
+Users have limited access:
+
+- View assigned customers  
+- Manage their leads  
+- Update permitted data  
+- Access restricted dashboard insights  
+
+---
+
+## 🧭 Project Structure
+```
+crm-frontend/
+│
+├── components/ # Reusable UI components
+├── pages/ # Next.js routes/pages
+├── dashboard/ # Dashboard modules
+├── customers/ # Customer management
+├── leads/ # Lead management
+├── public/ # Static assets
+├── styles/ # Global styling
+└── utils/ # Helper functions
+```
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
 
 ```bash
+git clone https://github.com/blackcat-007/crm-frontend.git
+cd crm-frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+http://localhost:3000
+
 ```
+##  🔌Backend Integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### This frontend connects to backend CRM APIs for:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-Customer data
 
-## Learn More
+-Lead data
 
-To learn more about Next.js, take a look at the following resources:
+-Dashboard analytics
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<b>Create .env.local file:
+NEXT_PUBLIC_API_URL=http://localhost:5000 </b>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 3D Dashboard Experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Three.js** is used to provide:
+
+- 🧩 Interactive dashboard visuals  
+- 🌐 Immersive UI components  
+- 📊 Enhanced data presentation  
+
+This makes the CRM more engaging than traditional flat dashboards.
+
+---
+
+## 📈 Future Enhancements
+
+- 🔔 Real-time notifications  
+- 📊 Advanced analytics charts  
+- 🧠 AI lead scoring  
+- 📝 Activity logs  
+- 👥 Multi-role hierarchy  
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!
+
+### Steps to Contribute:
+
+1. 🍴 Fork the repository  
+2. 🌿 Create a feature branch  
+3. 💾 Commit your changes  
+4. 🔁 Open a Pull Request  
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **blackcat-007**
+
+---
